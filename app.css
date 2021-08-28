@@ -22,7 +22,7 @@ h1 {
 .container {
   display: flex;
   width: 90vw;
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   max-width: 80rem;
   align-items: center;
