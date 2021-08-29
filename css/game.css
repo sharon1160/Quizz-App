@@ -1,0 +1,33 @@
+h2 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.choice-container {
+  font-size: 2rem;
+  display: flex;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5%;
+  text-align: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: white;
+  color: black;
+}
+
+.choice-text {
+  padding: 1.5rem ;
+  width: 100%;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
